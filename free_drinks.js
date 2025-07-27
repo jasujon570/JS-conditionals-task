@@ -5,10 +5,16 @@ Free Drinks
     - Else Coke: 30tk
 */
 
-let burger = 500;
+let burgerPrice = 500;
 
-if (burger > 500) {
+if (burgerPrice) {
     console.log("Free Coke");
 }else {
     console.log("Coke: 30tk");
+}
+
+if(burgerPrice < 400) {
+    console.log("free coke");
+}else {
+    console.log("coke: 50tk")
 }
