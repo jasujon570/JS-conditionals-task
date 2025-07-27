@@ -8,7 +8,7 @@ Free Drinks
 let burger = 500;
 
 if (burger > 500) {
-    log.console(Free Coke);
-} else {
-    log.console(Coke: 30tk);
+    console.log("Free Coke");
+}else {
+    console.log("Coke: 30tk");
 }
