@@ -12,16 +12,16 @@ Create a JavaScript program that calculates the Body Mass Index (BMI) and assign
 
 */
 
-let weight = 85;
-let height = 1.71;
+let weight = 64;
+let height = 1.6;
 
-let BMI = (weight / (height*2));
+let BMI = weight / (height * height);
 console.log(BMI.toFixed(2));
 
 // if esle condition
 if (BMI < 18.5) {
     console.log("You are underweight");
-}else if (BMI >= 18.5 && BMI <= 24.9) {
+}else if (BMI >= 18.5 && BMI <= 25) {
     console.log("You are normal");
 }else if (BMI  >= 25 && BMI <= 29.9) {
     console.log("You are overweight");
@@ -31,7 +31,8 @@ if (BMI < 18.5) {
 
 // ternary operator
 
-BMI < 18.5 ? console.log("You are underweight") : (BMI >= 18.5 && BMI <= 24.9) ? console.log("You are normal") : (BMI  >= 25 && BMI <= 29.9) ? console.log("You are overweight") : console.log("You are obese");
+BMI < 18.5 ? console.log("You are underweight") : (BMI >= 18.5 && BMI <= 25) ? console.log("You are normal") : (BMI  >= 25 && BMI <= 29.9) ? console.log("You are overweight") : console.log("You are obese");
 
 let resutl = BMI < 18.5 ? "You are underweight" : (BMI <= 24.9 ? "You are normal" : BMI <= 29.9 ? "You are overweight" : "You are obese")
 console.log(resutl);
+
