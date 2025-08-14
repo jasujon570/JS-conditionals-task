@@ -37,3 +37,13 @@ if(applicantAge < 30 && applicantExperience > 2){
 } else {
     console.log('Not eligilbe for exam')
 }
+
+
+const egg = 11;
+const chicken = true;
+
+if(egg > 12 || chicken === false){
+    console.log('I will made egg korma')
+} else {
+    console.log('I will eat ban and bannana')
+}
