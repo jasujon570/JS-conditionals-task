@@ -65,3 +65,13 @@ if(present > 80 && homeWork == true){
 }else {
     console.log('Auto fail')
 }
+
+const noElectricity = true;
+const noMobileCharge = false;
+
+
+if(noElectricity == true && noMobileCharge == true){
+    console.log('You will read')
+} else {
+    console.log('You will play video games')
+}
