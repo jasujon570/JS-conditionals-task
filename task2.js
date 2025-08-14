@@ -75,3 +75,12 @@ if(noElectricity == true && noMobileCharge == true){
 } else {
     console.log('You will play video games')
 }
+
+const shirtPrice = 1000;
+const hasCupon = true;
+
+if(shirtPrice > 1000 && hasCupon == true){
+    console.log('You will get 20% discount')
+}else {
+    console.log('You will not get discount')
+}
