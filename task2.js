@@ -47,3 +47,12 @@ if(egg > 12 || chicken === false){
 } else {
     console.log('I will eat ban and bannana')
 }
+
+const temp = 100;
+const coff = true;
+
+if(temp > 100 || coff == true){
+    console.log('He/She will go to a doctore')
+} else {
+    console.log('He/She will sleep')
+}
