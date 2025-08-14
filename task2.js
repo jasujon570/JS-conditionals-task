@@ -28,3 +28,12 @@ if(GPA === 5 && monthlyIncome < 10000){
 } else {
     console.log('he/she will not get scholarship')
 }
+
+const applicantAge = 29;
+const applicantExperience = 3;
+
+if(applicantAge < 30 && applicantExperience > 2){
+    console.log('Eligible for exam')
+} else {
+    console.log('Not eligilbe for exam')
+}
