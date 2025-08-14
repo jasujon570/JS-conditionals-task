@@ -8,3 +8,23 @@ if(age > 18 && height > 60){
 } else {
     console.log('He will seating on the car')
 }
+
+
+const mathScore = 85;
+const englishScore = 90;
+
+if(mathScore > 80 || englishScore > 85) {
+    console.log('He/she is eligible for adimission')
+} else {
+    console.log('He/she is not eligible for admission')
+}
+
+
+const GPA = 5;
+const monthlyIncome = 9999;
+
+if(GPA === 5 && monthlyIncome < 10000){
+    console.log('he/she will get scholarship')
+} else {
+    console.log('he/she will not get scholarship')
+}
