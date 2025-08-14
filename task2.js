@@ -56,3 +56,12 @@ if(temp > 100 || coff == true){
 } else {
     console.log('He/She will sleep')
 }
+
+const present = 80;
+const homeWork = false;
+
+if(present > 80 && homeWork == true){
+    console.log('Eligible for attend the exam')
+}else {
+    console.log('Auto fail')
+}
